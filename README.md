@@ -3,6 +3,9 @@
 ```
 import xlrd
 ```
+#### The raw data in excel look like this, only need to output the first 11 customers in the separate txt files.
+<img src="data.png" class="img-responsive img-circle" alt="data">
+
 #### Loop the second col in the excel file and output each data in the excel cells to a new txt files, limit the range to 20 and ouput first 11 rows in the second col in the excel file into txt files.
 ```
 i = 1
@@ -19,3 +22,5 @@ for i in range(0,20):
     else:
         continue
   ```
+#### The output txt files will be saved in the same path where you stored the script.
+<img src="output.png" class="img-responsive img-circle" alt="data">
