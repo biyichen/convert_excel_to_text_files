@@ -6,7 +6,7 @@ import xlrd
 #### The raw data in excel look like this, only need to output the first 11 customers in the separate txt files.
 <img src="data.png" class="img-responsive img-circle" alt="data">
 
-#### Loop the second col in the excel file and output each data in the excel cells to a new txt files, limit the range to 20 and ouput first 11 rows in the second col in the excel file into txt files.
+#### Loop the second col in the excel file and output each data in the excel cells to a new txt files, limit the range to 20 and ouput first 11 rows in the second col in the excel file into txt files. Used the open(filename,'w') Open a file called filename and use it for writing. A new, empty file with that name is created and made ready to accept the data.
 ```
 i = 1
 for i in range(0,20):
